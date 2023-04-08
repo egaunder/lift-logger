@@ -1,38 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lift-Logger
+
+Lift-Logger was created to allow users to easily track and log their workouts. Lift-Logger allows users to create a workout log, store the workout log and and search for it later. The app wants to enable users to see how they improve through their workout journey.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will give you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
+for notes on deploying the project on a live system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Requirements for the software and other tools to build, test and push
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/)
+- [Cypress.js](https://www.cypress.io/app/?utm_adgroup=132501525480&utm_keyword=cypress.js&utm_source=google&utm_medium=cpc&utm_campaign=15312994475&utm_term=cypress.js&hsa_acc=8898574980&hsa_cam=15312994475&hsa_grp=132501525480&hsa_ad=562694869911&hsa_src=g&hsa_tgt=kwd-1465628293188&hsa_kw=cypress.js&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwocShBhCOARIsAFVYq0jUYCp9yREaYkAijaw8xcyQoRMH4vOxpWbE2u5HwHjkuprJ23fhF4MaAknUEALw_wcB)
+- [Jest](https://jestjs.io/)
+- [Typescript](https://www.typescriptlang.org/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Installing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To install this application, you will need to
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. git pull the application
+2. run command `npm install`
 
-## Learn More
+## Running the tests
 
-To learn more about Next.js, take a look at the following resources:
+To run test simply run command `npm test`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Sample Tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+There are 3 major forms of testing.
 
-## Deploy on Vercel
+1. unit tests
+2. integration tests
+3. e2e testing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Style test
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Checks if the best practices and the right coding style has been used.
+
+    Give an example
+
+## Deployment
+
+Add additional notes to deploy this on a live system
+
+## Built With
+
+- [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+  for the Code of Conduct
+- [Creative Commons](https://creativecommons.org/) - Used to choose
+  the license
+
+## Versioning
+
+We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
+available, see the [tags on this
+repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Authors
+
+- **Elvan Gaunder**
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
+details
+
+## Acknowledgments
+
+- Hat tip to anyone whose code is used
+- Inspiration
+- etc
