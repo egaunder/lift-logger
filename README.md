@@ -42,9 +42,9 @@ There are 3 major forms of testing.
 
 - Setup testing framework
 - Setup database
-- Setup Styling
-- Setup Linting
-- Setup Formatting
+- ~~Setup Styling~~
+- ~~Setup Linting~~
+- ~~Setup Formatting~~
 - Setup Husky
 - Setup Actions
 
