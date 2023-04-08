@@ -44,6 +44,7 @@ There are 3 major forms of testing.
 - Setup database
 - Setup Styling
 - Setup Linting
+- Setup Formatting
 - Setup Husky
 - Setup Actions
 
