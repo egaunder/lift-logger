@@ -36,6 +36,32 @@ There are 3 major forms of testing.
 2. integration tests
 3. e2e testing
 
+### TODO
+
+### Infrastructure
+
+- Setup testing framework
+- Setup database
+- Setup Styling
+- Setup Linting
+- Setup Husky
+- Setup Actions
+
+### User
+
+- Setup Login
+- Setup Register
+- Setup Authentication
+- Setup Roles
+
+### APP
+
+- Setup main dashboard
+- Setup library of exercises
+- Setup create workout page
+- Setup Log page
+- Setup Modal to create workout
+
 ### Style test
 
 Checks if the best practices and the right coding style has been used.
